@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
 {
-    protected $table = 'u_user';
-    protected $primaryKey = 'userid';
+    protected $table = 'users';
+    protected $primaryKey = 'id';
 
     protected $fillable = [//默认查询字段
         'name', 'email', 'password',

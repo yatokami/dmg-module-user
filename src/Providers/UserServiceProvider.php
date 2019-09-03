@@ -24,7 +24,7 @@ class UserServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerPolicies();
-        $this->loadRoutesFrom(base_path('Module/User/Routes/api.php'));
+        $this->loadRoutesFrom(base_path('vendor/dmg/user/Routes/api.php'));
     }
 
 }
