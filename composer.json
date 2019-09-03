@@ -1,0 +1,30 @@
+{
+	"name": "dmg/user",
+	"description": "dmg user module",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "yato",
+			"email": "873550063@qq.com"
+		}
+	],
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.1-dev"
+		},
+		"laravel": {
+			"aliases": {
+				"User": "Module\\User\\Facades\\User"
+			},
+			"providers": [
+				"Module\\User\\Providers\\UserServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+        "psr-4": {
+            "Module\\User\\": "src/"
+        }
+    },
+	"require": {}
+}
